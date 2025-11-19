@@ -14,12 +14,26 @@ public partial class Player : CharacterBody2D
             inputDirection.X += 1;
         }
         //balra
-
+        if (Input.IsActionPressed("ui_left"))
+        {
+            inputDirection.X -= 1;
+        }
+       
         //fel
-
+        if (Input.IsActionPressed("ui_up"))
+        {
+            inputDirection.Y -= 1;
+        }
+       
 
         //le
+        if (Input.IsActionPressed("ui_down"))
+        {
+            inputDirection.Y += 1;
+        }
 
+        inputDirection = inputDirection.Normalized();
+        
         Velocity = inputDirection * MoveSpeed;
 
     }
