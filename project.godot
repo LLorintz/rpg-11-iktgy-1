@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="rpg11iktgy1"
+config/name="rpg"
 config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -18,13 +18,13 @@ config/icon="res://icon.svg"
 
 window/size/viewport_width=320
 window/size/viewport_height=240
-window/size/window_width_override=1170
-window/size/window_height_override=930
+window/size/window_width_override=1720
+window/size/window_height_override=880
 window/stretch/mode="canvas_items"
 
 [dotnet]
 
-project/assembly_name="rpg11iktgy1"
+project/assembly_name="rpg"
 
 [rendering]
 
